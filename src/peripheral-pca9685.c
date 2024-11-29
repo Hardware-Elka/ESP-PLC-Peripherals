@@ -18,11 +18,15 @@
  */
 
 #include <peripheral-pca9685.h>
+#include <i2c-interface.h>
 
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
 
+#ifndef PCA9685_NUM_OUTPUTS
+#	define PCA9685_NUM_OUTPUTS 16
+#endif
 
 // Registers
 #define MODE1_REGISTER		0x00

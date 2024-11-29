@@ -25,8 +25,8 @@
 
 #define MCP23008_NUM_IO 8
 
-#define MCP23008_OUTPUT 0
-#define MCP23008_INPUT 1
+#define MCP23008_OUTPUT 		0
+#define MCP23008_INPUT 			1
 
 #ifdef __cplusplus
 extern "C" {

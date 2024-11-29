@@ -23,10 +23,10 @@
 #include <stdint.h>
 #include <i2c-interface.h>
 
-#define MCP23017_NUM_IO 16
+#define MCP23017_NUM_IO 		16
 
-#define MCP23017_OUTPUT 0
-#define MCP23017_INPUT 1
+#define MCP23017_OUTPUT 		0
+#define MCP23017_INPUT 			1
 
 #ifdef __cplusplus
 extern "C" {

@@ -18,6 +18,7 @@
  */
 
 #include <peripheral-ads1015.h>
+#include <i2c-interface.h>
 
 #include <unistd.h>
 #include <errno.h>

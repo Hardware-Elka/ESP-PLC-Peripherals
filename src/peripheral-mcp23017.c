@@ -18,8 +18,13 @@
  */
 
 #include <peripheral-mcp23017.h>
+#include <i2c-interface.h>
 
 #include <errno.h>
+
+#ifndef MCP23017_INPUT
+#	define MCP23017_INPUT 			1
+#endif
 
 // Registers
 #define IODIR_A_REGISTER      0x00    
